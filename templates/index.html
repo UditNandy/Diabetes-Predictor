@@ -11,21 +11,21 @@
         <h1 align='center'>Diabetes Predictor</h1>
         <form action="{{ url_for('predict')}}" method="POST">
             <label for="pregnancies">Number of times Pregnant: &nbsp;</label>
-            <input type="text" id="pregnancies" name="pregnancies" required="required"><br><br>
+            <input type="text" id="pregnancies" name="pregnancies" required="required" placeholder='Pregnancies'><br><br>
             <label for="glucose">Glucose:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;</label>
-            <input type="text" id="glucose" name="glucose" required="required"><br><br>
+            <input type="text" id="glucose" name="glucose" required="required" placeholder='50-350'><br><br>
             <label for="bloodpressure">BloodPressure:&emsp;&emsp;&emsp;&ensp;&emsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" id="bloodpressure" name="bloodpressure" required="required"><br><br>
+            <input type="text" id="bloodpressure" name="bloodpressure" required="required" placeholder='20-350'><br><br>
             <label for="skinthickness">SkinThickness:&emsp;&emsp;&emsp;&ensp;&emsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" id="skinthickness" name="skinthicknesss" required="required"><br><br>
+            <input type="text" id="skinthickness" name="skinthicknesss" required="required" placeholder='10-100'><br><br>
             <label for="insulin">Insulin:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&ensp;</label>
-            <input type="text" id="insulin" name="insulin" required="required"><br><br>
+            <input type="text" id="insulin" name="insulin" required="required" placeholder='10-400'><br><br>
             <label for="bmi">BMI:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" id="bmi" name="bmi" required="required"><br><br>
+            <input type="text" id="bmi" name="bmi" required="required" placeholder='5-80'><br><br>
             <label for="diabetespedigreefunction">DiabetesPedigreeFunction:&nbsp;</label>
-            <input type="text" id="diabetespedigreefunction" name="diabetespedigreefunction" required="required"><br><br>
+            <input type="text" id="diabetespedigreefunction" name="diabetespedigreefunction" required="required" placeholder='0.1-3.0'><br><br>
             <label for="age">Age:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" id="age" name="age" required="required"><br><br>
+            <input type="text" id="age" name="age" required="required" placeholder='Age'><br><br>
             <input type="submit" value="Submit">
     </form>
 
